@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-auto-console",
+  "version": "0.0.1",
+  "description": "babel plugin to wrap statements with console",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "repository": "https://github.com/pirtor/babel-plugin-auto-console.git",
+  "author": "pirtor <pirtorle@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.14.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "core-js": "3",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "rollup": "^2.52.7"
+  }
+}
